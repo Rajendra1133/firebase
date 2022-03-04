@@ -40,7 +40,7 @@ class _SecondState extends State<Second> {
             child: Column(
               children: [
                 TextField(controller: fieldKey),
-                SizedBox(height: 50.0),
+                SizedBox(height: 50.0, width: 50,),
                 TextField(controller: fieldSecondKey),
                 MaterialButton(
                   onPressed: () {
