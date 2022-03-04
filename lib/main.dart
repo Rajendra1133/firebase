@@ -46,7 +46,9 @@ class _MyAppState extends State<MyApp> {
       'image': url,
       'key': key,
     });
-    setState(() {});
+    setState(() {
+
+    });
   }
 
   @override

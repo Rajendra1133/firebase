@@ -27,6 +27,7 @@ class _SecondState extends State<Second> {
       });
       setState(() {});
     });
+    print("Snapshot");
   }
 
   @override
